@@ -39,17 +39,13 @@ h1 {
   color: #289da3;
 }
 
-
-.yellow{
-  color: #DCA34A;
+.yellow {
+  color: #dca34a;
 }
 
 * {
   text-align: justify;
 }
-
-
-
 
 /* About Area */
 #aboutArea {
@@ -76,12 +72,6 @@ h1 {
   margin: 30px 0;
 }
 
-
-
-
-
-
-
 /* Setup Area */
 #videoArea {
   color: #fff;
@@ -96,12 +86,6 @@ h1 {
 #videoArea a:hover {
   color: #fff;
 }
-
-
-
-
-
-
 
 /* Setup Area */
 #quoteArea {
@@ -121,14 +105,6 @@ h1 {
 #quoteArea blockquote .small {
   color: #fff;
 }
-
-
-
-
-
-
-
-
 
 /* Social Area */
 #countdownArea {
@@ -165,21 +141,13 @@ h1 {
   text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
 /* Work Area */
 #workArea {
   padding: 100px 0 50px 0px;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
   background-image: url(../images/專題-03.png);
-
 }
 #workArea ul.controls {
   width: 100%;
@@ -245,7 +213,6 @@ h1 {
   display: block;
 }
 
-
 /* Contact Area */
 #contactArea {
   padding: 80px 0px;
@@ -300,10 +267,9 @@ h1 {
   padding: 30px 0 0 0;
 }
 
-#animate{
+#animate {
   padding: 30px 0 0 0;
 }
-
 
 .video_center {
   display: block;
@@ -356,8 +322,8 @@ h1 {
   padding: 10px 40px 10px 0px;
 }
 
-.navbg{
-  background-color: rgba(255,255,255, 0.3);
+.navbg {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav_scroll img {
@@ -376,9 +342,9 @@ h1 {
   background-color: #289da3;
   color: #f6f6f6;
   font-weight: bold;
-  border-radius: 5px  5px 0 0;
+  border-radius: 5px 5px 0 0;
   transition: all 0.5s;
-  box-shadow:0 0px 0px #ccc !important;
+  box-shadow: 0 0px 0px #ccc !important;
   border: 0;
 }
 
@@ -391,10 +357,10 @@ h1 {
 .collapsed_body {
   border-color: #f6f6f6;
   background: #f6f6f6;
-  padding: 20px  60px;
+  padding: 20px 60px;
 }
 
-.collapsed_body p{
+.collapsed_body p {
   text-align: center;
 }
 
@@ -409,9 +375,7 @@ h1 {
   transform: translateY(0);
 }
 
-
-
-.nav-link{
+.nav-link {
   font-size: 18px;
 }
 
@@ -419,18 +383,16 @@ h1 {
   font-size: 16px;
 }
 
-p{
+p {
   font-size: 16px;
 }
 
-body{
+body {
   font-size: 14px;
 }
 
-
-
-
-#teamArea h4,h5{
+#teamArea h4,
+h5 {
   font-size: 16px;
   color: rgb(33, 33, 33);
 }
