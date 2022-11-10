@@ -1,8 +1,6 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,400italic,300italic,700italic,900italic,900);
 /** general **/
-
-/** start **/
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #777777;
@@ -41,9 +39,17 @@ h1 {
   color: #289da3;
 }
 
-.yellow {
-  color: #dca34a;
+
+.yellow{
+  color: #DCA34A;
 }
+
+* {
+  text-align: justify;
+}
+
+
+
 
 /* About Area */
 #aboutArea {
@@ -70,6 +76,12 @@ h1 {
   margin: 30px 0;
 }
 
+
+
+
+
+
+
 /* Setup Area */
 #videoArea {
   color: #fff;
@@ -84,6 +96,12 @@ h1 {
 #videoArea a:hover {
   color: #fff;
 }
+
+
+
+
+
+
 
 /* Setup Area */
 #quoteArea {
@@ -103,6 +121,14 @@ h1 {
 #quoteArea blockquote .small {
   color: #fff;
 }
+
+
+
+
+
+
+
+
 
 /* Social Area */
 #countdownArea {
@@ -139,9 +165,21 @@ h1 {
   text-transform: uppercase;
 }
 
+
+
+
+
+
+
+
 /* Work Area */
 #workArea {
   padding: 100px 0 50px 0px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+  background-image: url(../images/專題-03.png);
+
 }
 #workArea ul.controls {
   width: 100%;
@@ -158,6 +196,7 @@ h1 {
   margin: 5px 8px;
   cursor: pointer;
   color: #0a308f;
+  font-size: 16px;
 }
 #workArea ul.controls li.active {
   color: #eb6143;
@@ -205,6 +244,7 @@ h1 {
   color: #ee771e;
   display: block;
 }
+
 
 /* Contact Area */
 #contactArea {
@@ -260,13 +300,10 @@ h1 {
   padding: 30px 0 0 0;
 }
 
-#animate {
+#animate{
   padding: 30px 0 0 0;
 }
 
-.navbar-brand {
-  font-size: 32px;
-}
 
 .video_center {
   display: block;
@@ -281,7 +318,7 @@ h1 {
   height: 100vh;
   min-height: 400px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 160%;
   background-position: center;
   background-attachment: fixed;
 }
@@ -299,10 +336,6 @@ h1 {
   opacity: 50%;
 }
 
-* {
-  text-align: justify;
-}
-
 .collapse-p p {
   text-align: center;
 }
@@ -311,12 +344,20 @@ h1 {
   padding: 20px 60px;
 }
 
+.navbar-brand {
+  font-size: 32px;
+}
+
 .navbar {
   transition: all 0.5s;
   font-size: 16px;
 }
 .nav_scroll {
-  padding: 10px 40px;
+  padding: 10px 40px 10px 0px;
+}
+
+.navbg{
+  background-color: rgba(255,255,255, 0.3);
 }
 
 .nav_scroll img {
@@ -335,9 +376,9 @@ h1 {
   background-color: #289da3;
   color: #f6f6f6;
   font-weight: bold;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px  5px 0 0;
   transition: all 0.5s;
-  box-shadow: 0 0px 0px #ccc !important;
+  box-shadow:0 0px 0px #ccc !important;
   border: 0;
 }
 
@@ -350,10 +391,10 @@ h1 {
 .collapsed_body {
   border-color: #f6f6f6;
   background: #f6f6f6;
-  padding: 20px 60px;
+  padding: 20px  60px;
 }
 
-.collapsed_body p {
+.collapsed_body p{
   text-align: center;
 }
 
@@ -366,4 +407,30 @@ h1 {
 .fadeIn {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+.nav-link{
+  font-size: 18px;
+}
+
+#aboutArea p {
+  font-size: 16px;
+}
+
+p{
+  font-size: 16px;
+}
+
+body{
+  font-size: 14px;
+}
+
+
+
+
+#teamArea h4,h5{
+  font-size: 16px;
+  color: rgb(33, 33, 33);
 }

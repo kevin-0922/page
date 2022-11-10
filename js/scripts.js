@@ -1,8 +1,10 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() == 0) {
+      $(".navbar").addClass("navbg");
       $(".navbar").removeClass("bg-light nav_scroll");
     } else {
+      $(".navbar").removeClass("navbg");
       $(".navbar").addClass("bg-light nav_scroll");
     }
   });
