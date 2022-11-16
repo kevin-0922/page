@@ -20,6 +20,11 @@ $(document).ready(function () {
     );
   });
 
+
+  $("#mainArea").click(function () {
+    $("body, html").animate({ scrollTop: 0 },700 );
+  });
+
   //抓取螢幕目前位置
   $(window).scroll(function () {
     var scrollPos = $(window).scrollTop(); //抓取現在螢幕的位址
