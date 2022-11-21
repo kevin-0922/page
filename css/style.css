@@ -115,50 +115,6 @@ h1 {
 
 
 
-/* Setup Area */
-#videoArea {
-  color: #fff;
-  background-image: url(../images/image_1900x1200.jpg);
-}
-#videoArea h2 {
-  color: #fff;
-}
-#videoArea .glyphicon {
-  font-size: 68px;
-}
-#videoArea a:hover {
-  color: #fff;
-}
-
-
-
-
-
-
-
-/* Setup Area */
-#quoteArea {
-  padding: 60px 0px;
-  color: #fff;
-  background-image: url(./images/image_1900x1200.jpg);
-}
-#quoteArea blockquote {
-  border: 0px;
-  padding: 15px 10px;
-}
-#quoteArea blockquote cite {
-  font-weight: 700;
-}
-#quoteArea blockquote footer,
-#quoteArea blockquote small,
-#quoteArea blockquote .small {
-  color: #fff;
-}
-
-
-
-
-
 /* VisionArea Area */
 
 
@@ -166,7 +122,14 @@ h1 {
   padding: 30px 0 0 0;
 }
 
-
+.allBG{
+  background-image: url(../images/BG.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: overlay;
+}
 
 
 
@@ -211,12 +174,6 @@ h1 {
 /* Work Area */
 #workArea {
   padding: 100px 0 50px 0px;
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: top;
-  background-image: url(../images/專題-03.png);
-  background-color: rgba(255,255,255,0.5);
-  background-blend-mode: overlay;
 
 }
 #workArea ul.controls {
@@ -321,7 +278,7 @@ h1 {
 
 
 .main_page .main_img {
-  background-image: url(../images/BG_animate3.gif);
+  background-image: url(../images/other/BG_animate6.gif);
 }
 
 .main_page .main_item {
