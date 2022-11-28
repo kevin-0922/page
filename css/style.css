@@ -278,7 +278,7 @@ h1 {
 
 
 .main_page .main_img {
-  background-image: url(../images/other/BG_animate6.gif);
+  background-image: url(../images/other/BG_animate7.gif);
 }
 
 .main_page .main_item {
@@ -374,4 +374,14 @@ body{
 #teamArea h4,h5{
   font-size: 16px;
   color: rgb(33, 33, 33);
+}
+
+
+
+footer .p-1{
+  font-size: 32px;
+}
+
+.copyright{
+  font-size: 16px;
 }
