@@ -376,6 +376,11 @@ body{
   color: rgb(33, 33, 33);
 }
 
+#teamArea{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
 
 
 footer .p-1{
