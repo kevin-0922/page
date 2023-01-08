@@ -39,9 +39,8 @@ h1 {
   color: #289da3;
 }
 
-
-.yellow{
-  color: #DCA34A;
+.yellow {
+  color: #dca34a;
 }
 
 * {
@@ -60,10 +59,9 @@ h1 {
   padding: 20px;
 }
 
-.navbg{
-  background-color: rgba(255,255,255, 0.3);
+.navbg {
+  background-color: rgba(255, 255, 255, 0.3);
 }
-
 
 .nav-active {
   box-shadow: 0 -2px 0 #e26789 inset;
@@ -73,30 +71,20 @@ h1 {
   box-shadow: 0 0 0 0;
 }
 
-
-@media (max-width: 991.98px) { 
-  .nav_scroll  {
+@media (max-width: 991.98px) {
+  .nav_scroll {
     padding: 10px;
   }
 
-  .navbg{
-    background-color: rgba(255,255,255, 1);
+  .navbg {
+    background-color: rgba(255, 255, 255, 1);
   }
-  
 }
-
-
-
 
 /* About Area */
 #aboutArea {
   padding: 50px;
 }
-
-
-
-
-
 
 /* Service Area */
 #serviceArea {
@@ -110,35 +98,24 @@ h1 {
   margin: 30px 0;
 }
 
-
-
-
-
-
 /* VisionArea Area */
-
 
 #VisionArea {
   padding: 30px 0 0 0;
 }
 
-.allBG{
-  background-image: url(../images/BG.png);
+.allBG {
+  background-image: url(../images/BG1.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
 }
 
-
-
-
-
 /* animate Area */
 
-
-#animate{
+#animate {
   padding: 30px 0 0 0;
 }
 
@@ -147,34 +124,28 @@ h1 {
   margin: 0 auto;
 }
 
-
-
 .YT-container {
   max-width: 600px;
   margin: 20px auto;
 }
 
 .YT-video {
-  position: relative; 
+  position: relative;
   padding-top: 75%;
   overflow: hidden;
 }
 
-.YT-video iframe { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100% !important; 
-  height: 100% !important; 
+.YT-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
-
-
-
 
 /* Work Area */
 #workArea {
   padding: 100px 0 50px 0px;
-
 }
 #workArea ul.controls {
   width: 100%;
@@ -240,18 +211,9 @@ h1 {
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+#workArea > .container > .row {
+  align-items:center
+}
 
 /* Footer Area */
 #footerArea {
@@ -275,17 +237,15 @@ h1 {
   text-shadow: 1px 1px 0 #303030;
 }
 
-
-
 .main_page .main_img {
-  background-image: url(../images/other/BG_animate7.gif);
+  background-image: url(../images/other/BG_animate8.gif);
 }
 
 .main_page .main_item {
   height: 100vh;
   min-height: 400px;
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: 100%;
   background-position: center;
   background-attachment: fixed;
 }
@@ -311,15 +271,13 @@ h1 {
   padding: 20px 60px;
 }
 
-
-
 .collapse_top {
   background-color: #289da3;
   color: #f6f6f6;
   font-weight: bold;
-  border-radius: 5px  5px 0 0;
+  border-radius: 5px 5px 0 0;
   transition: all 0.5s;
-  box-shadow:0 0px 0px #ccc !important;
+  box-shadow: 0 0px 0px #ccc !important;
   border: 0;
 }
 
@@ -332,10 +290,10 @@ h1 {
 .collapsed_body {
   border-color: #f6f6f6;
   background: #f6f6f6;
-  padding: 20px  60px;
+  padding: 20px 60px;
 }
 
-.collapsed_body p{
+.collapsed_body p {
   text-align: center;
 }
 
@@ -350,9 +308,7 @@ h1 {
   transform: translateY(0);
 }
 
-
-
-.nav-link{
+.nav-link {
   font-size: 18px;
 }
 
@@ -360,33 +316,70 @@ h1 {
   font-size: 16px;
 }
 
-p{
+p {
   font-size: 16px;
 }
 
-body{
+body {
   font-size: 14px;
 }
 
-
-
-
-#teamArea h4,h5{
+#teamArea h4,
+h5 {
   font-size: 16px;
   color: rgb(33, 33, 33);
 }
 
-#teamArea{
+#teamArea {
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-
-
-footer .p-1{
+footer .p-1 {
   font-size: 32px;
 }
 
-.copyright{
+.copyright {
   font-size: 16px;
+}
+
+.demo {
+  width: 100%;
+}
+
+.demo ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.demo li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.demo li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+#workArea .card{
+  background-color: none;
+  border: none;
+}
+
+.demo img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.demo .lSSlideWrapper img {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: auto;
 }
