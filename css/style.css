@@ -130,41 +130,15 @@ h1 {
 }
 
 .YT-video {
-  position: relative;
-  padding-top: 75%;
   overflow: hidden;
 }
 
-.YT-video .YT_iframe1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 45% !important;
-  height: 45% !important;
-}
-
-.YT-video .YT_iframe2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45% !important;
-  height: 45% !important;
-}
-
-.YT-video .YT_iframe3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 45% !important;
-  height: 45% !important;
-}
-
-.YT-video .YT_iframe4 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 45% !important;
-  height: 45% !important;
+E-text {
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break: normal;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 
 /* Work Area */
@@ -304,11 +278,18 @@ h1 {
   border: 0;
 }
 
-
-.collapse_bgc1{background-color: #bfe1e2;}
-.collapse_bgc2{background-color: #dcdcdc;}
-.collapse_bgc3{background-color: #f8d5d9;}
-.collapse_bgc4{background-color: #f1e2a7;}
+.collapse_bgc1 {
+  background-color: #bfe1e2;
+}
+.collapse_bgc2 {
+  background-color: #dcdcdc;
+}
+.collapse_bgc3 {
+  background-color: #f8d5d9;
+}
+.collapse_bgc4 {
+  background-color: #f1e2a7;
+}
 
 .accordion .collapsed {
   background-color: #f6f6f6;
