@@ -35,16 +35,17 @@ $(document).ready(function () {
       var targetPosition = $(target).offset().top; //用抓取到的id來判別位置
       var targetHeight = $(target).outerHeight(); //用抓取到的id來判別高度
       var navHeight = $(".navheight").outerHeight(); //用抓取到的navheight來nav判別高度
-      if (
-        targetPosition - 1 - navHeight <= scrollPos &&
-        targetHeight + targetPosition > scrollPos
-      ) {
+      if ( targetPosition - 1 - navHeight <= scrollPos &&targetHeight + targetPosition > scrollPos) 
+      {
         //第一個條件：是 div 到最上面的高度小於等於我目前滑到的高度比較
         //第二個條件：是 div 高度 +div 到頂部的高度大於我目前滑到的高度比較
-        $(".scrollTop").removeClass("nav-active");
-        $(this).addClass("nav-active");
+        //$(".scrollTop").removeClass("nav-active");
+        //$(this).addClass("nav-active");
+        $(".scrollTop").parents().removeClass("navbar-an");
+        $(this).parents().addClass("navbar-an");
       } else {
-        $(this).removeClass("nav-active");
+        $(this).parents().removeClass("navbar-an")
+        //$(this).removeClass("nav-active");
       }
     });
     //滑到哪就出現效果

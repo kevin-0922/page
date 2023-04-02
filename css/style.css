@@ -42,11 +42,29 @@ h1 {
 .yellow {
   color: #dca34a;
 }
+.bg-pink{
+  background: #ED7783;
+}
+.bg-blue{
+  background: #22A6AB;
+}
+.bg-yellow{
+  background: #F5D241;
+}
+.bg-gray{
+  background: #8E8E8E;
+}
+
+
+
+
 
 * {
   text-align: justify;
 }
-/* nav Area */
+
+/***************************** nav Area *****************************/
+
 .navbar-brand {
   font-size: 32px;
 }
@@ -54,9 +72,10 @@ h1 {
 .navbar {
   transition: all 0.5s;
   font-size: 16px;
+  padding: 5px 0px 0px 10px;
 }
 .nav_scroll {
-  padding: 20px;
+  padding: 10px 0px 0 20px;
 }
 
 .navbg {
@@ -71,14 +90,61 @@ h1 {
   box-shadow: 0 0 0 0;
 }
 
+.navbar-collapse{
+  height: 13vh;
+}
+
+.navbar-collapse > ul{
+  margin-bottom: 0 !important;
+  height: 100%;
+  padding-top: 20px;
+}
+
+
+.navbar-collapse > ul > li{
+  width: 120px;
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35% 35% 0 0;
+  transition: all 0.5s;
+  margin-top: 20px;
+}
+
+
+.navbar-collapse > ul > li:hover{
+  cursor: pointer;
+}
+
+
+.navbar-an{
+  margin-top: 0px !important;
+  
+}
+
+.nav-item:hover{
+  filter:brightness(70%);
+  }
+
+.navbar-collapse > ul > li > a{
+  text-align: center;
+  color: #fff !important;
+}
+
 @media (max-width: 991.98px) {
   .nav_scroll {
-    padding: 10px;
+    padding: 10px 0px 0 10px;
   }
 
   .navbg {
     background-color: rgba(255, 255, 255, 1);
   }
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* About Area */
@@ -113,7 +179,7 @@ h1 {
   background-blend-mode: overlay;
 }
 
-/* animate Area */
+/*************************** animate Area ****************************/
 
 #animate {
   padding: 30px 0 0 0;
@@ -271,8 +337,7 @@ E-text {
 
 .collapse_top {
   color: #444444;
-  font-weight: bold;
-  border-radius: 5px 5px 0 0;
+  border-radius: 50px 50px 0 0;
   transition: all 0.5s;
   box-shadow: 0 0px 0px #ccc !important;
   border: 0;
@@ -318,9 +383,7 @@ E-text {
   transform: translateY(0);
 }
 
-.nav-link {
-  font-size: 18px;
-}
+
 
 #aboutArea p {
   font-size: 16px;
